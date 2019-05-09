@@ -24,9 +24,9 @@ public class EmbeddingJettyWithServlet {
 
          //le decimos al jetty cuales son los servlet que hay que instalar y le decimos la expresion regular que define 
         //que request van a ser atendidos por este servlet.Puedo tener distintos path y ser atendidos.
-       // context.addServlet(new ServletHolder(new HelloServlet()), "/simple");
-        context.addServlet(new ServletHolder(new HelloServlet()), "/*"); //si le pongo el asterisco invoco con http://localhost:8080/hello/
-       // context.addServlet(new ServletHolder(new HelloHtmlServlet()), "/html");
+        context.addServlet(new ServletHolder(new HelloServlet()), "/simple");
+      //  context.addServlet(new ServletHolder(new HelloServlet()), "/*"); //si le pongo el asterisco invoco con http://localhost:8080/hello/
+        context.addServlet(new ServletHolder(new HelloHtmlServlet()), "/html");
 
         server.start();
 
