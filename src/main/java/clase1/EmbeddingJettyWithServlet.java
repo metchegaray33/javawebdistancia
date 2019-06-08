@@ -7,6 +7,7 @@ import org.eclipse.jetty.servlet.ServletHolder;
 /**
  * desdemasternewamaster1233tt
  * @author Usuario
+ * http://localhost:8080/hello/simple
  *
  */
 public class EmbeddingJettyWithServlet {
