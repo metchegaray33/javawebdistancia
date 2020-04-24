@@ -25,7 +25,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * maricel tag1
+ * maricel release1
  */
 
 public class Main {
